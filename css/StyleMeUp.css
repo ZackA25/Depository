@@ -32,19 +32,19 @@ nav {
     margin: 0;
 }
 
-ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
-    float:left;
+#navbar li {
+    display: inline-block;
+    float: left;
     text-decoration: none;
 }
-
-    li a {
+    #navbar li a {
         border-radius: 20px;
         display: block;
         padding: 18px;
@@ -53,15 +53,13 @@ li {
         text-decoration: none;
         font-size: 140%;
     }
-    li a:hover {
+    #navbar li a:hover {
         background-color: chartreuse;
     }
-    li a:visited { 
+    #navbar li a:visited { 
         color: black;
     }
-#navbar li {
-    display: inline-block;
-}
+
 
 img {
     width: 95%;
@@ -81,6 +79,12 @@ img {
     font-size: 150%;
 }
 
+#Projects li {
+    display: inline-block;
+    float:left;
+    text-decoration: none;
+}
+
 #Projects li a {
     border-radius: 20px;
     display: block;
@@ -94,3 +98,15 @@ img {
 #Projects li a:visited { 
     color: black;
 }
+
+#Skills {
+    font-size: 150%;
+    text-align: center;
+}
+
+#Skills ul {
+   list-style: none;
+}
+/* #Skills li {
+    display: normal;
+} */
