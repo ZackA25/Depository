@@ -119,10 +119,28 @@ img {
     float: left;
 }
 
+#Projects #Game {
+    width: 24%;
+    background-color:darkslateblue;
+    float: left;
+    border-radius: 25px;
+    /* height: 290px; */
+    margin: 5px;
+}
+
+#Projects #Game p {
+    margin: 20px;
+    font-size: 125%;
+}
+
 #Projects li {
+    margin: 0px;
+    padding: 0px;
+    font-size: 150%;
+    color:gold;
     display: inline-block;
     float:left;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 #Projects li a {
