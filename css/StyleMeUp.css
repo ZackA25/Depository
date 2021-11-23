@@ -62,3 +62,30 @@ li {
 #navbar li {
     display: inline-block;
 }
+
+img {
+    width: 95%;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#intro {
+    display: block;
+    text-align: center;
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
+    border-radius: 20px;
+    color:black;
+}
+
+#Projects li a {
+    border-radius: 20px;
+    display: block;
+    padding: 18px;
+    margin: 2px;
+    background-color: #a33939;
+    text-decoration: none;
+    font-size: 150%;
+}
