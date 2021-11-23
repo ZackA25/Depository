@@ -78,14 +78,19 @@ img {
     background-color: lightgrey;
     border-radius: 20px;
     color:black;
+    font-size: 150%;
 }
 
 #Projects li a {
     border-radius: 20px;
     display: block;
     padding: 18px;
-    margin: 2px;
-    background-color: #a33939;
+    margin: 20px;
+    background-color: white;
     text-decoration: none;
     font-size: 150%;
+    color:crimson;
+}
+#Projects li a:visited { 
+    color: black;
 }
