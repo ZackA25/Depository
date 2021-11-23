@@ -63,7 +63,7 @@ nav {
 
 img {
     width: 95%;
-    border-radius: 20px;
+    border-radius: 65%;
     margin: 0px;
     padding: 10px;
 }
@@ -101,12 +101,16 @@ img {
 
 #Skills {
     font-size: 150%;
-    text-align: center;
+    text-align: left;
 }
-
+#Skills, #box1 {
+    width: 25%;
+    background-color:darkgray;
+    float: left;
+}
 #Skills ul {
    list-style: none;
 }
-/* #Skills li {
-    display: normal;
-} */
+#Skills li {
+    
+} 
