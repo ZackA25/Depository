@@ -3,9 +3,19 @@ body {
     color:oldlace
 }
 
-#about p{
+#About {
     font-size: 150%;
     text-align: center;
+}
+#About img {
+    width: 35%;
+    border-radius: 65%;
+    margin: 0px;
+    padding: 10px;
+}
+#About p {
+    text-align: center;
+    margin: 10px;
 }
 
 .container {
@@ -100,17 +110,55 @@ img {
 }
 
 #Skills {
+    align-content: center;
     font-size: 150%;
-    text-align: left;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: auto;
 }
-#Skills, #box1 {
-    width: 25%;
-    background-color:darkgray;
+#Skills #box1 { 
+    width: 45%;
+    background-color:darkslateblue;
     float: left;
+    border-radius: 25px;
+    /* height: 290px; */
+    margin: 5px;
 }
+
+#Skills #box1 h2 {
+    margin-bottom: 10px;
+}
+
+#Skills #box1 p {
+    margin: 10px;
+}
+
+#Skills #box2 { 
+    width: 45%;
+    background-color:darkslategray;
+    float: left;
+    border-radius: 25px;
+    /* height: 290px; */
+    margin: 5px;
+}
+
+#Skills #box2 h2 {
+    margin-bottom: 10px;
+}
+
+#Skills #box2 p {
+    margin: 10px;
+}
+
 #Skills ul {
    list-style: none;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
 }
 #Skills li {
-    
-} 
+    margin: 0px;
+    padding: 1px;
+    font-size: 150%;
+    color:gold;
+}  
