@@ -3,6 +3,11 @@ body {
     color:oldlace
 }
 
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
 #About {
     font-size: 150%;
     text-align: center;
